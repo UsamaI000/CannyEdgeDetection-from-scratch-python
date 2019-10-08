@@ -25,6 +25,7 @@ This image is difficult to interpret, even though it can be seen that linear str
 Non maxima supression step makes all edges in M one pixel thick. This is an important step in Canny's algorithm, which distinguishes it from other algorithms. The first step is to quantize gradient direction into just four directions. In our implementation, the following values were assigned during quantization
 
 Angle Value      assigned
+      
       0        0 to 22.5
               157.5 to 202.5
               337.5 to 360
